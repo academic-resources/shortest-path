@@ -94,7 +94,13 @@ export function App() {
     }
 
     isInProgress.current = true;
-    await startBreadthFirstSearchAlgo(grid, setGrid, entry.current, exit.current, isInProgress);
+    await startBreadthFirstSearchAlgo(
+      grid,
+      setGrid,
+      entry.current,
+      exit.current,
+      isInProgress
+    );
   }
 
   function setGridCell(x, y, type = clickType) {
@@ -133,7 +139,7 @@ export function App() {
     <>
       <Title>
         Shortest Path Finder
-        <a href="https://github.com/sadanandpai/shortest-path-finder">
+        <a href="https://github.com/bgoonz/shortest-path">
           <AiFillGithub />
         </a>
       </Title>
@@ -141,7 +147,11 @@ export function App() {
       <Main>
         <Controls {...appData} />
         <Grid {...appData} />
-        <ToastContainerWeb autoClose={3000} pauseOnFocusLoss={false} toastId={3} />
+        <ToastContainerWeb
+          autoClose={3000}
+          pauseOnFocusLoss={false}
+          toastId={3}
+        />
         <ToastContainerMobile
           position="bottom-center"
           pauseOnFocusLoss={false}

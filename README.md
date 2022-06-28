@@ -3,19 +3,19 @@
 
 ### Shortest Path Finder using BFS algorithm in React
 
-<a href="https://sadanandpai.github.io/shortest-path-finder/dist/"><img src="cover/cover.png" alt="cover"/></a>
+<a href="https://bgoonz.github.io/shortest-path/dist/"><img src="cover/cover.png" alt="cover"/></a>
 
-[![](https://img.shields.io/github/stars/sadanandpai/shortest-path-finder?style=for-the-badge)](#stars)
-[![](https://img.shields.io/github/forks/sadanandpai/shortest-path-finder?style=for-the-badge)](#forks)<br>
-![](https://visitor-badge.glitch.me/badge?page_id=shortest-path-finder)
+[![](https://img.shields.io/github/stars/bgoonz/shortest-path?style=for-the-badge)](#stars)
+[![](https://img.shields.io/github/forks/bgoonz/shortest-path?style=for-the-badge)](#forks)<br>
+![](https://visitor-badge.glitch.me/badge?page_id=shortest-path)
 
-<a href="https://sadanandpai.github.io/shortest-path-finder/dist/">Live demo</a>
+<a href="https://bgoonz.github.io/shortest-path/dist/">Live demo</a>
 
 </div>
 
 ### Running in your local
 
-- `git clone https://github.com/sadanandpai/shortest-path-finder.git`
+- `git clone https://github.com/bgoonz/shortest-path.git`
 - `npm install` (after navigating inside the directory)
 - `npm start`
 
@@ -36,7 +36,8 @@
 - [rc-slider](https://slider-react-component.vercel.app/) + [react-toastify](https://fkhadra.github.io/react-toastify) + [reactive-button](https://www.arifszn.com/reactive-button/)
 - [Vite](https://vitejs.dev/) (Bundler)
 
-------------
+---
 
 ##### Feel free to reuse or modify the code/project for your personal or professinal purposes
+
 ##### Raise PR for any bugs/imporvements
