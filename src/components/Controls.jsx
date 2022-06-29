@@ -114,7 +114,11 @@ export function Controls({
           <MyReactiveButton text="Clear" type={cellType} />
         </Section>
         <Section>
-          <ReactiveButton onClick={startBFS} disabled={isDisabled} idleText="Search Path" />
+          <ReactiveButton
+            onClick={startBFS}
+            disabled={isDisabled}
+            idleText="Search Path"
+          />
         </Section>
         <Section>
           <ReactiveButton onClick={resetGrid} idleText="Reset" outline />
@@ -130,11 +134,23 @@ export function Controls({
           <MyReactiveButton text={<CgTrashEmpty />} type={cellType} />
         </Section>
         <Section>
-          <ReactiveButton onClick={startBFS} disabled={isDisabled} idleText={<BsPlay />} />
+          <ReactiveButton
+            onClick={startBFS}
+            disabled={isDisabled}
+            idleText={<BsPlay />}
+          />
         </Section>
         <Section>
-          <ReactiveButton onClick={resetGrid} idleText={<GrPowerReset />} outline />
-          <ReactiveButton onClick={randomGrid} idleText={<FaRandom />} outline />
+          <ReactiveButton
+            onClick={resetGrid}
+            idleText={<GrPowerReset />}
+            outline
+          />
+          <ReactiveButton
+            onClick={randomGrid}
+            idleText={<FaRandom />}
+            outline
+          />
         </Section>
       </MobileButtons>
     </Row>

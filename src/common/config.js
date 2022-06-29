@@ -24,7 +24,6 @@ const maxColumnsMobile = 25;
 export const cellWidth = 25;
 export const cellGap = 2;
 
-
 // Global settings for app (modify below, iff you know what you are doing)
 
 export const cellType = 0;
@@ -44,5 +43,11 @@ export const clickTypeToColorMap = new Map([
 ]);
 
 // Rows, Columns options for mobile
-export const rowsOptions = Array.from(new Array(maxRowsMobile - minRows + 1), (_, i) => String(i + minRows));
-export const colsOptions = Array.from(new Array(maxColumnsMobile - minColumns + 1), (_, i) => String(i + minColumns));
+export const rowsOptions = Array.from(
+  new Array(maxRowsMobile - minRows + 1),
+  (_, i) => String(i + minRows)
+);
+export const colsOptions = Array.from(
+  new Array(maxColumnsMobile - minColumns + 1),
+  (_, i) => String(i + minColumns)
+);
